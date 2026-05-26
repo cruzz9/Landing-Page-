@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f1e3;
+    padding: 40px;
+}
+
+.parrafo {
+  color:black;
+  font-size:10px;
+}
+
+#titulo:hover{
+    color:chocolate;
+    font-weight: bold;
+}
+
+img {
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.subtitulo:hover{
+     color:chocolate;
+    font-weight: bold;
+}
+
+.caja {
+  width: 800px;              /* [width](ca://s?q=Propiedad_width_en_CSS): ancho del grupo */
+  margin: 10px auto;         /* [margin](ca://s?q=Propiedad_margin_en_CSS): centrado horizontal */
+  padding: 10px;             /* [padding](ca://s?q=Propiedad_padding_en_CSS): espacio interno */
+  border: 1px solid #111;    /* [border](ca://s?q=Propiedad_border_en_CSS): marco alrededor */
+   /* color de fondo */
+  text-align: center;        /* centra los botones dentro */
+}

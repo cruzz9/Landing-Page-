@@ -61,7 +61,7 @@ img {
 .blog-card {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       border: none;
-      border-radius: 12px;
+      border-radius: 10px;
       overflow: hidden;
     }
     .blog-card:hover {

@@ -19,7 +19,7 @@
   <label class="btn btn-outline-dark" for="btncheck2">Bebidas</label>
 
   <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-  <label class="btn btn-outline-danger" for="btncheck3">Blog</label>
+  <label class="btn btn-outline-danger" for="btncheck3" onclick="window.location.href='./blog.html'">Blog</label>
    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
   <label class="btn btn-outline-dark" for="btncheck3">Reservar</label>
    <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
@@ -34,11 +34,70 @@
     Servimos café de especialidad preparado con intención, en un espacio diseñado para que te sientas como en casa. 
     Ya sea que vengas a trabajar, a compartir o simplemente a respirar, aquí el tiempo se mide en sorbos.
     </p>
-    <img src="./imagenes/1779748659.png" 
-    alt="Hamburguesa" 
-    class="burger-img">
+
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./imagenes/1779748659.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://tse1.explicit.bing.net/th/id/OIP.L6bE6zirMsBBmByVFsrBXAHaIa?rs=1&pid=ImgDetMain&o=7&rm=3" 
+      class="d-block w-100"
+      alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes/1779748659.png" 
+      class="d-block w-100" 
+      alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<hr>
+ <div class="col-md-6 col-lg-4">
+      <div class="card blog-card h-100 shadow-sm">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=600" class="card-img-top" alt="Granos de café">
+        <div class="card-body d-flex flex-column">
+          <span class="card-category mb-2">Origen</span>
+          <h5 class="card-title fw-bold">El origen importa: conoce las fincas de tu café</h5>
+          <p class="card-text text-muted flex-grow-1">
+            Descubre la historia detrás de cada grano y el compromiso sostenible con nuestros productores...
+          </p>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="reading-time"><i class="bi bi-clock me-1"></i> 6 min</span>
+            <a href="#" class="btn btn-coffee">Leer más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<hr>
+      <div class="col-md-6 col-lg-4">
+      <div class="card blog-card h-100 shadow-sm">
+        <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=600" class="card-img-top" alt="Interior de cafetería">
+        <div class="card-body d-flex flex-column">
+          <span class="card-category mb-2">Espacio</span>
+          <h5 class="card-title fw-bold">Tu segundo hogar: conoce cada rincón de nuestra cafetería</h5>
+          <p class="card-text text-muted flex-grow-1">
+            Desde la zona de trabajo hasta el rincón de lectura, descubre por qué nos llaman tu hogar away from home...
+          </p>
+          <div class="d-flex justify-content-between align-items-center mt-3">
+            <span class="reading-time"><i class="bi bi-clock me-1"></i> 5 min</span>
+            <a href="#" class="btn btn-coffee">Leer más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <hr>
-    <a href="#contacto">Ir a Contacto</a>
+    <a href="./contacto.html">Ir a Contacto</a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
